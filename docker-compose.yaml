@@ -1,0 +1,9 @@
+
+services:
+  asteroids:
+    ports:
+        - "8000:8000"
+    image: asteroids-game
+    restart: always
+
+
